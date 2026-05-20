@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CocoChloe 的个人主页，收集随机想法、文章和项目入口。" />
+  <title>cocoChloe · random thoughts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+
+  <header class="site-header" aria-label="Site header">
+    <a class="brand" href="./" aria-label="cocoChloe home">cocoChloe</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#notes">Notes</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__meta">
+        <span>Personal site</span>
+        <span>GitHub Pages ready</span>
+        <span>MMXXVI</span>
+      </div>
+      <div class="hero__grid">
+        <div>
+          <p class="kicker">random thoughts / field notes / small experiments</p>
+          <h1 id="hero-title">把想法放到一张温热的纸上。</h1>
+        </div>
+        <p class="hero__lede">
+          这里先作为 CocoChloe 的个人网页骨架：可以放文章、项目、随手记和作品入口。它是纯静态 HTML，直接推到 GitHub Pages 就能发布。
+        </p>
+      </div>
+    </section>
+
+    <section id="notes" class="section section--ruled" aria-labelledby="notes-title">
+      <div class="section__head">
+        <p class="eyebrow">01 · Notes</p>
+        <h2 id="notes-title">近期想法</h2>
+      </div>
+      <div class="note-list">
+        <article class="note-card">
+          <div class="note-card__number">001</div>
+          <h3>从一页开始</h3>
+          <p>先把主页、文章入口和视觉语言定下来。内容可以慢慢长出来，发布流程先保持简单。</p>
+          <a href="#" aria-label="阅读 从一页开始">Read later</a>
+        </article>
+        <article class="note-card">
+          <div class="note-card__number">002</div>
+          <h3>HTML 是最终稿</h3>
+          <p>借用 html-anything 的模板理念：内容不只是被渲染，还应该被排版、被照顾、被认真呈现。</p>
+          <a href="#" aria-label="阅读 HTML 是最终稿">Read later</a>
+        </article>
+        <article class="note-card">
+          <div class="note-card__number">003</div>
+          <h3>留白也是内容</h3>
+          <p>个人网页不需要一开始就复杂。清楚、可读、好维护，比功能堆叠更重要。</p>
+          <a href="#" aria-label="阅读 留白也是内容">Read later</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="section__head">
+        <p class="eyebrow">02 · Projects</p>
+        <h2 id="projects-title">公开入口</h2>
+      </div>
+      <div class="project-grid">
+        <a class="project-link" href="https://github.com/Chloe-YibaiLiu/cocoChloe" target="_blank" rel="noreferrer">
+          <span>Repository</span>
+          <strong>cocoChloe</strong>
+          <em>源代码与发布骨架</em>
+        </a>
+        <a class="project-link" href="./pages/colophon.html">
+          <span>Colophon</span>
+          <strong>site notes</strong>
+          <em>字体、结构与维护说明</em>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="section section--about" aria-labelledby="about-title">
+      <div class="about-copy">
+        <p class="eyebrow">03 · About</p>
+        <h2 id="about-title">给之后的内容留位置。</h2>
+        <p>
+          这个框架刻意保持轻：没有构建、没有依赖、没有后台。需要新页面时复制 `pages/colophon.html` 的结构，或者直接在 `index.html` 里加入口。
+        </p>
+      </div>
+      <aside class="colophon" aria-label="Publishing details">
+        <span>Format</span>
+        <strong>Static HTML</strong>
+        <span>Hosting</span>
+        <strong>GitHub Pages</strong>
+        <span>Template seed</span>
+        <strong>html-anything</strong>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>cocoChloe</span>
+    <span>Published with plain HTML.</span>
+    <a href="#main">Back to top</a>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
