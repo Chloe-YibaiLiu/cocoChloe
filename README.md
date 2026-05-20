@@ -8,7 +8,7 @@ Coco‘s random thoughts, published as a pure static personal site.
 python3 -m http.server 8080
 ```
 
-Open `http://localhost:8080`.
+Open `http://localhost:8080`. The root page links to `/zh/` and `/en/`.
 
 ## GitHub Pages
 
